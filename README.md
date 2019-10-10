@@ -5,7 +5,7 @@
 ## Install
 
 ```
-asdf plugin-add helm https://github.com/Traackr/asdf-binnacle.git
+asdf plugin-add binnacle https://github.com/Traackr/asdf-binnacle.git
 ```
 
 ## Use
