@@ -32,7 +32,7 @@ install_binnacle() {
 }
 
 get_platform() {
-  uname | tr '[:upper:]' '[:lower:]'
+  echo "$(uname | tr '[:upper:]' '[:lower:]')"
 }
 
 get_arch() {
