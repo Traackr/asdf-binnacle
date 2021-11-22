@@ -1,6 +1,6 @@
 # asdf-binnacle
 
-[![Build Status](https://travis-ci.org/Traackr/asdf-binnacle.svg?branch=master)](https://travis-ci.org/Traackr/asdf-binnacle)
+[![Test](https://github.com/Traackr/asdf-binnacle/actions/workflows/test.yml/badge.svg)](https://github.com/Traackr/asdf-binnacle/actions/workflows/test.yml)
 
 [Binnacle](https://github.com/Traackr/binnacle) plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
 
