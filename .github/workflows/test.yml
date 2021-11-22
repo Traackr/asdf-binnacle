@@ -17,4 +17,4 @@ jobs:
     - name: Test
       run: |
         . asdf.sh
-        asdf plugin-test binnacle https://github.com/{{ github.repository }}.git 'binnacle --version'
+        asdf plugin-test binnacle https://github.com/${{ github.repository }}.git 'binnacle --version'
