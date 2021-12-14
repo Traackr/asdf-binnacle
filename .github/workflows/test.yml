@@ -13,3 +13,6 @@ jobs:
       uses: asdf-vm/actions/plugin-test@v1
       with:
         command: binnacle --version
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+      env:
+        OAUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
